@@ -70,8 +70,56 @@ Restart when done.
 
 ## 🧪 Optional: PowerShell Auto-Fix Script
 
+Fix-0x80070002.ps1 – Initial Release
+
+This release includes a PowerShell script to automatically fix the common Windows Update error:
+
+Error Code: 0x80070002
+Meaning: The system cannot find the file specified
+
+🔧 What the Script Does
+
+🛑 Stops Windows Update services: wuauserv, bits, msiserver, cryptSvc
+
+🗂 Renames key update folders:
+
+C:\\Windows\\SoftwareDistribution → .old
+
+C:\\Windows\\System32\\catroot2 → .old
+
+✅ Restarts all update-related services
+
+🧪 Runs DISM and SFC to check and restore system files
+
+🧑‍💻 How to Use
+
+Download the script file below:
+📥 Fix-0x80070002.ps1
+
+Open PowerShell as Administrator
+
+Run:
+
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\Fix-0x80070002.ps1
+
+
+Reboot your PC and check for updates.
+
+💡 Notes
+
+Safe to use on Windows 10 and Windows 11.
+
+You can inspect the script contents before running.
+
+No data or personal files are affected.
+
+⭐ Like It?
+
+If this script helped, please star the repository and share it with others!
+
 Automate most of the steps above with a script:  
-[Download Fix-0x80070002.ps1](https://github.com/your-repo/releases) (update with your real link)
+[Download Fix-0x80070002.ps1]([https://github.com/your-repo/releases](https://github.com/bootdevice/windows-update-error-0x80070002-in-windows-11-/releases/download/v1.0/Fix-0x80070002.ps1)) (update with your real link)
 
 Run it with:
 ```powershell
