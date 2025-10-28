@@ -118,16 +118,16 @@ No data or personal files are affected.
 
 If this script helped, please star the repository and share it with others!
 
-Automate most of the steps above with a script:  
-[Download Fix-0x80070002.ps1]([https://github.com/your-repo/releases](https://github.com/bootdevice/windows-update-error-0x80070002-in-windows-11-/releases/download/v1.0/Fix-0x80070002.ps1)) (update with your real link)
+## 📥 Download the Fix Script
 
-Run it with:
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process
-.\Fix-0x80070002.ps1
-```
+Click below to download the latest version of the auto‑repair PowerShell script for Windows Update error `0x80070002`:
+
+[⬇️ Download Fix‑0x80070002.ps1](https://github.com/bootdevice/windows-update-error-0x80070002-in-windows-11-/releases/download/v1.0/Fix-0x80070002.ps1)
 
 ---
+
+![Downloads](https://img.shields.io/github/downloads/bootdevice/windows-update-error-0x80070002-in-windows-11-/Fix-0x80070002.ps1/total?label=script%20downloads)
+
 
 ## 💬 Feedback
 
